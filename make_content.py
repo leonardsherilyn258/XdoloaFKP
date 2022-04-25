@@ -35,7 +35,7 @@ def check_path(path):
     检查路径是否存在
     """
     if not os.path.exists(path):
-        print('not exist: {path}'.format(path=path))
+        print('
         return False
     else:
         return True
@@ -46,7 +46,7 @@ def read_file(input_path):
         return fb.read()
 
 
-def write_file(output_path, output_data):
+
     with open(output_path, 'w') as fb:
         fb.write(output_data)
 
@@ -83,7 +83,7 @@ def main():
     input_list = sys.argv  # 获取输入的参数
 
     if len(input_list) != 2:
-        raise InputError('Input error: Need a param')
+
     else:
         try:
             input_arg = input_list[1]
